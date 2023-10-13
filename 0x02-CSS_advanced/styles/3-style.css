@@ -9,7 +9,7 @@
 }
 
 html {
-    overscroll-behavior: contain;
+    overscroll-behavior: smooth;
 }
 
 body, a {
