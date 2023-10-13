@@ -1,15 +1,4 @@
-html {
-    overscroll-behavior: contain;
-}
-body, a {
-    color: var(--text-color);
-}
-.visually-hidden {
-    display: none;
-}
-.card-category, .section-tagline {
-    color: var(--color-primary);
-}
+/* This is a stylesheet file */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -17,4 +6,20 @@ body, a {
     -color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+}
+
+html {
+    overscroll-behavior: contain;
+}
+
+body, a {
+    color: var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category, .section-tagline {
+    color: var(--color-primary);
 }
